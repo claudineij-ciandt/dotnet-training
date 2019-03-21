@@ -8,6 +8,6 @@
 4. [Desafio prático](https://github.com/claudineij-ciandt/dotnet-training/tree/master/practical-challenge)
 
 ### Conteúdo desenvolvido por:
-* [Claudinei Oliveira](https://github.com/claudinei-ciandt)
+* [Claudinei Oliveira](https://github.com/claudineij-ciandt)
 * [Cristiano Manoel](https://github.com/cristianom-ciandt)
 * [Felipe Salvador](https://github.com/fsalvador-ciandt)
