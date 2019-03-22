@@ -12,7 +12,6 @@ Neste lab, vamos utilizar alguns dos principais comandos da CLI.
 6. [Adicione uma dependência externa](#6-adicione-uma-dependência-externa)
 
 
-
 ## 1. Explore a CLI
 
 Liste os comandos oferecidos pela CLI e observe o resultado:
