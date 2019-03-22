@@ -10,7 +10,7 @@ o .NET é uma plataforma de desenvolvimento para diversos tipos de aplicações,
 
 O primeira versão do .NET foi lançada pela Microsoft em 2002. Desde então, mudanças significativas aconteceram:
 
-![.NET history](/media/dotnet-history.png)
+![.NET history](media/dotnet-history.png)
 
 Em 2014, a Microsoft anunciou o desenvolvimento da próxima geração do ASP.NET, então chamado de ASP.NET vNext. Esta nova versão trouxe novas e importantes características:
 * Cloud-optimized: idealizado para aplicações cloud-native, otimizada para cenários de baixa memória e alto throughput.
@@ -21,7 +21,7 @@ O ASP.NET vNext foi inicialmente denominado ASP.NET 5. Porém, as mudanças fora
 
 Atualmente, .NET é um umbrella-term para as diversas implementações .NET, seus frameworks de aplicação, bibliotecas e infraestrutura compartilhada.
 
-![.NET architecture](/media/dotnet-architecture.png)
+![.NET architecture](media/dotnet-architecture.png)
 
 ## Como funcionam as aplicações .NET?
 
@@ -29,6 +29,6 @@ Aplicações .NET, quando compiladas, são hardware-agnostic. Em especial, aplic
 
 O desenvolvimento também não está restrito a apenas uma linguagem.
 
-![.NET compilation and execution process](/media/dotnet-compilation-execution.png)
+![.NET compilation and execution process](media/dotnet-compilation-execution.png)
 
 Cada linguagem tem seu compilador específico. O código-fonte é compilado para uma linguagem intermediária (assemblies). Ao ser executado, o runtime possui um compilador chamado JIT (just-in-time compiler), que faz a compilação para código nativo de máquina.
