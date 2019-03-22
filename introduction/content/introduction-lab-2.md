@@ -1,5 +1,7 @@
 # Lab: dotnet CLI
 
+_(Tempo estimado: 50 minutos)_
+
 O dotnet CLI é uma ferramenta para executar diversas operações úteis para o desenvolvimento de aplicações .NET Core. Embora muitas destas operações estejam disponibilizadas na interface gráfica de IDEs, a CLI é o método _out-of-the-box_ para realizá-las.
 
 Neste lab, vamos utilizar alguns dos principais comandos da CLI.
@@ -153,7 +155,7 @@ Project `src/Training.Business/Training.Business.csproj` added to the solution.
 
 Explore os arquivos gerados pelo template Class Library (VS Code > View > Explorer > dotnet-training > src > Training.Business). Observe a classe **Class1**, criada como exemplo.
 
-Na "Class1", adicione um método que retorna uma mensagem customizada. Em seguida, altere **Programa.Main** para invocar este método e retornar a nova mensagem.
+Na **Class1**, adicione um método que retorna uma mensagem customizada. Em seguida, altere **Programa.Main** para invocar este método e retornar a nova mensagem.
 
 
 Adcione o método abaixo na **Class1**:
@@ -185,7 +187,7 @@ Reference `..\Training.Business\Training.Business.csproj` added to the project.
 
 No entanto, o erro ainda permanece. Por quê?
 
-Agora resta apenas adicionar a diretiva de importação no arquivo. Clique no ícone de lâmpada à esquerda, na mesma linha do erro. Escolha a opção **using Training.Business**. Observe o bloco de **usings**, no início do arquivo. Dentre eles está a opção recém adicionada.
+Agora resta apenas adicionar a diretiva de importação no arquivo. Sobre a área marcada como erro, abra o QuickFix (Control + .). Escolha a opção **using Training.Business**. Observe o bloco de **usings**, no início do arquivo. Dentre eles está a opção recém adicionada.
 
 Execute e teste novamente a aplicação console:
 
@@ -210,6 +212,7 @@ Clique na aba **.NET CLI** e copie o comando gerado.
 Adicione o pacote ao projeto **Training.Business**.
 
 ```console
+user:~$ cd src/Training.Business
 user:~$ dotnet add package Lorem.Universal.Net --version 2.1.55
 PackageReference for package 'Lorem.Universal.Net' version '2.1.55' added to file 'dotnet-training/src/Business/Business.csproj'.
 Restore completed for 'dotnet-training/src/Business/Business.csproj'.
@@ -223,7 +226,7 @@ public static string GetMessage() {
 }
 ```
 
-Adicione a diretiva de importação para a classe **Lorem** (ícone lâmpada > using LoremNET).
+Adicione a diretiva de importação para a classe **Lorem** (QuickFix > using LoremNET).
 
 Execute e teste novamente a aplicação console:
 
