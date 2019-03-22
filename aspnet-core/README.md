@@ -14,14 +14,7 @@ Nesse módulo do curso iremos abordar o básico do ASP.NET core focando apenas e
 - [A classe Startup]("")
 - [MVC - Model View Controller]("")
 - [Injeção de Dependencia]("")
-- [Host de Inicialização]("")
-- Servidores
-     - Windows: IIS, Kestrel e windows.sys
-     - Linux/Mac: Kestrel
-     - Kestrel: Implementação em ASP.NET é normalmente funciona como configuração de proxy reverso com Nginx ou Apache.
+- [Middleware]("")
 - [Configuração]("")
-- [Ambientes]("")
-- [Roteamento]("")
-- [Fazendo solicitações HTTP]()
 
 ## Labs

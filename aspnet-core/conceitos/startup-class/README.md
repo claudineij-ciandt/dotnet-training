@@ -5,3 +5,13 @@ ASP.NET Core usa uma classe de inicialização para configuração de serviços 
 - `ConfigureServices` é usado para configurar(ou registrar) serviços usados pelo aplicação.
 
 - `Configure` é usando para adiciona um tratamento(`middleware`) ao pipeline da requisição. Cada `middleware` adicionado, executa uma operação e invoca o próximo `middleware`. Por exemplo, um `middleware` pode manipular as solicitações para arquivos estáticos ou redirecionar solicitações HTTP para HTTPS.
+
+## Demo
+
+1. Criar uma Aplicação
+
+    ```
+    dotnet new web -n demo-startup
+    ```
+
+2. Abrir classe `Startup.cs`
