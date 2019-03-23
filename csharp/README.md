@@ -14,7 +14,7 @@
 14. [String](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/string.md)
 15. [String Builder](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/string-builder.md)
 16. DEMO: Manipulação de strings.
-17.[Trabalhando com data e hora]()
+17. [Trabalhando com data e hora]()
 18. DEMO: Date and time.
 19. [HANDS-ON: lab 3](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab3.md)
 20. [Coleções](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/collections.md)
