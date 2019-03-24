@@ -4,23 +4,23 @@
 4. [Palavras reservadas](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/reserved-keywords.md)
 5. [Noções sobre tipos de dados e variáveis](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/data-types-and-variables.md)
 6. [Declarando variáveis](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/declaring-variables.md)
-7. DEMO: Declarando e atribuindo valor para variáveis
+7. (DEMO) Declarando e atribuindo valor para variáveis
 8. [A instrução de decisão if](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/if.md)
-9. [HANDS-ON: lab 1](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab1.md)
+9. [(HANDS-ON) Lab 1: conditions](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab1.md)
 10. [Estrutura de repetição for](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/for.md)
 11. [Estrutura de repetição while](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/while.md)
 12. [Estrutura de repetição do while](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/do-while.md)
-13. [HANDS-ON: lab 2](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab2.md)
+13. [(HANDS-ON) Lab 2: loops](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab2.md)
 14. [String](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/string.md)
 15. [String Builder](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/string-builder.md)
-16. DEMO: Manipulação de strings.
+16. (DEMO) Manipulação de strings.
 17. [Trabalhando com data e hora](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/date-time.md)
-18. DEMO: Date and time.
-19. [HANDS-ON: lab 3](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab3.md)
+18. (DEMO) Date and time.
+19. [(HANDS-ON) Lab 3: strings and dates](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab3.md)
 20. [Coleções](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/collections.md)
 21. [Estrutura de repetição foreach](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/foreach.md)
 22. [LINQ](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/linq.md)
-23. [HANDS-ON: lab 4](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab4.md)
+23. [(HANDS-ON) Lab 4: LINQ](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab4.md)
 24. [Namespaces, classes e modificadores de acesso](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/namespaces-classes-access-modifiers.md)
 25. [Interfaces e classes abstratas](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/interfaces-abstracts.md)
-26. [HANDS-ON: lab 5](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab5.md)
+26. [(HANDS-ON) Lab 5: classes and interfaces](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab5.md)

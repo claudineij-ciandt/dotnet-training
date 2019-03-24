@@ -1,4 +1,4 @@
-# Hands on: lab 2
+# (Hands-on) Lab 2: loops
 
 ## Tempo
 

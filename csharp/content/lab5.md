@@ -1,4 +1,4 @@
-# Hands on: lab 5
+# (Hands-on) Lab 5: classes and interfaces
 
 ## Preparação
 

@@ -1,4 +1,4 @@
-# Hands on: lab 1
+# (Hands-on) Lab 1: conditions
 
 ## Tempo
 

@@ -1,4 +1,4 @@
-# Hands on: lab 4
+# (Hands-on) Lab 4: LINQ
 
 Neste lab você irá praticar o uso do foreach e do LINQ.
 

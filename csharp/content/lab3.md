@@ -1,4 +1,4 @@
-# Hands on: lab 3
+# (Hands-on) Lab 3: string and dates
 
 ## Tempo
 
