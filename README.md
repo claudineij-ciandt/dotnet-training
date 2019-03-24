@@ -1,4 +1,4 @@
-# Dotnet Training
+# .NET Training
 
 ## Módulos
 
