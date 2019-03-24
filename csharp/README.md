@@ -14,11 +14,11 @@
 14. [String](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/string.md)
 15. [String Builder](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/string-builder.md)
 16. DEMO: Manipulação de strings.
-17. [Trabalhando com data e hora]()
+17. [Trabalhando com data e hora](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/date-time.md)
 18. DEMO: Date and time.
 19. [HANDS-ON: lab 3](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab3.md)
 20. [Coleções](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/collections.md)
-21: [Estrutura de repetição foreach](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/foreach.md)
+21. [Estrutura de repetição foreach](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/foreach.md)
 22. [LINQ](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/linq.md)
 23. [HANDS-ON: lab 4](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab4.md)
 24. [Namespaces, classes e modificadores de acesso](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/namespaces-classes-access-modifiers.md)

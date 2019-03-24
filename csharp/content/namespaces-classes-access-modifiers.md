@@ -52,6 +52,7 @@ public class Customer
 ```
 
 Lista de membros de uma classe
+
 Membro | Descrição
 --- | ---
 Campos | Os campos são variáveis declaradas no escopo da classe. Um campo pode ser um tipo numérico interno ou uma instância de outra classe. Por exemplo, uma classe de calendário pode ter um campo que contém a data atual.
@@ -59,7 +60,7 @@ Constantes | As constantes são campos ou propriedades cujo valor é definido em
 Propriedades | As propriedades são métodos de uma classe acessados como se fossem campos dessa classe. Uma propriedade pode fornecer proteção para um campo de classe para evitar que ele seja alterado sem o conhecimento do objeto.
 Métodos | Os métodos definem as ações que uma classe pode executar. Métodos podem usar parâmetros que fornecem dados de entrada e retornar dados de saída por meio de parâmetros. Os métodos também podem retornar um valor diretamente, sem usar um parâmetro.
 Eventos | Os eventos fornecem notificações sobre ocorrências a outros objetos, como cliques de botão ou a conclusão bem-sucedida de um método. Eventos são definidos e disparados pelos delegados.
-Operadores | Os operadores sobrecarregados são considerados membros de classe. Ao sobrecarregar um operador, ele é definido como um método estático público em uma classe. Os operadores predefinidos (+, *, < e assim por diante) não são considerados membros. Para obter mais informações, consulte Operadores Sobrecarregáveis.
+Operadores | Os operadores sobrecarregados são considerados membros de classe. Ao sobrecarregar um operador, ele é definido como um método estático público em uma classe. Os operadores predefinidos (+, -, < e assim por diante) não são considerados membros. Para obter mais informações, consulte Operadores Sobrecarregáveis.
 Indexadores | Os indexadores permitem que um objeto seja indexado de maneira semelhante às matrizes.
 Construtores | Os construtores são os métodos chamados quando o objeto é criado pela primeira vez.Geralmente, eles são usados para inicializar os dados de um objeto.
 Finalizadores | Os finalizadores raramente são usados no C#. Eles são métodos chamados pelo mecanismo de tempo de execução quando o objeto está prestes a ser removido da memória. Geralmente, eles são usados para garantir que recursos que devem ser liberados sejam manipulados corretamente.
