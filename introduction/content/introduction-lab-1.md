@@ -1,4 +1,6 @@
-# Lab: setup do ambiente de desenvolvimento .NET
+# Lab 1: setup do ambiente de desenvolvimento .NET
+
+_(Tempo estimado: 30 minutos)_
 
 Vamos começar realizando o setup do ambiente de desenvolvimento. O setup inclui a instalação do SDK do .NET Core e ferramentas de apoio.
 

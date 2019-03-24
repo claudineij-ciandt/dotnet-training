@@ -150,11 +150,13 @@ Em C# temos os seguintes modificadores de acesso:
 
 Modificador | Descrição
 --- | ---
-public | O membro pode ser acessado de qualquer lugar. Esta é a visibilidade menos restritiva. Enums e interfaces são, por padrão, publicamente visíveis.
-protected | OS membros podem ser alcançados somente dentro do mesmo projeto.
-protected internal | O mesmo que internal, exceto que classes que herdam desta classe podem alcançar seus membros, mesmo que estejam em outro projeto.
-private | Só pode ser alcançado por membros internos. Esta é a visibilidade mais restritiva. Classes e estruturas são, por padrão, definidas para visibilidade privada.
-private protected | O mesmo que private, exceto que classes que herdam dessa classe podem alcançar seus membros, desde que estejam no mesmo projeto.
+public | Visível de qualquer lugar. Essa é a visibilidade menos restritiva.
+protected | Visível somente pela própria classe ou por classes herdam da mesma.
+internal | Visível somente no escopo do projeto ou assembly.
+protected internal | Visível no escopo do projeto ou assembly.
+protected internal | Visível por classes que herdam da  mesma, dentro ou fora do escopo do projeto.
+private | Visível somente internamente. Esta é a visibilidade mais restritiva.
+private protected | Visível internamente e por classes que herdam da mesma.
 
 Os modificadores de acesso podem ser usados na definição de todos os membros de uma classe, interface ou estrutura.
 

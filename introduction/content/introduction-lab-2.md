@@ -1,6 +1,6 @@
-# Lab: dotnet CLI
+# Lab 2: dotnet CLI
 
-_(Tempo estimado: 50 minutos)_
+_(Tempo estimado: 40 minutos)_
 
 O dotnet CLI é uma ferramenta para executar diversas operações úteis para o desenvolvimento de aplicações .NET Core. Embora muitas destas operações estejam disponibilizadas na interface gráfica de IDEs, a CLI é o método _out-of-the-box_ para realizá-las.
 
