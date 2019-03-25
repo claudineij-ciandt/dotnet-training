@@ -114,6 +114,7 @@ O projeto foi criado, porém ele não foi adicionado (associado) à solution. Ad
 user:~$ dotnet sln add src/Training.ConsoleApp/
 Project `src/Training.ConsoleApp/Training.ConsoleApp.csproj` added to the solution.
 
+user:~$ cd ..
 user:~$ dotnet build
 Build succeeded.
 ```
@@ -224,7 +225,8 @@ Altere o método **Class1.GetMessage**:
 
 ```csharp
 public static string GetMessage() {
-    return Lorem.Words(5);
+    var message = Lorem.Words(5);
+    return message;
 }
 ```
 
