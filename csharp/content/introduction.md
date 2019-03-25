@@ -23,6 +23,12 @@ Histórico de versões:
 | C# versão 7.0 | 2017 |
 | C# versão 8.0 | UpComing |
 
+## Documentação oficial
+
+[C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
+
+[C# Tutorials](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/index)
+
 **Referências:**
 * [C# Version History: Examining the Language Past and Present](https://blog.ndepend.com/c-versions-look-language-history/)
 * [The history of C#](https://docs.microsoft.com/pt-br/dotnet/csharp/whats-new/csharp-version-history)
