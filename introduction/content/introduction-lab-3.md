@@ -1,5 +1,7 @@
 # Lab 3: outros recursos do VS Code
 
+_(Tempo estimado: 15 minutos)_
+
 ## Debugging
 
 Vamos executar a aplicação criada no lab anterior no modo debugging.
