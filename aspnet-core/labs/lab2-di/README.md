@@ -35,4 +35,4 @@ public class TesteServico
 
 3. Criar um controller que para chamada do serviço via construtor
 
-4. Criar uma action para chamada do serviço via parametro do método
+4. Criar uma action para chamada do serviço via parâmetro do método

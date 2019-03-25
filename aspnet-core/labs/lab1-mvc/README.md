@@ -17,7 +17,7 @@ Criar uma API que suporte operações CRUD. As APIs devem usar o padrão REST.
     - PUT /api/produtos/{id}
     - DELETE /api/produtos/{id}
 
-- Fazer validação nos métodos GET, PUT e DELETE para verificar se registro existe, caso não, retornar erro 404.
+- Fazer validação dentro dos métodos GET, PUT e DELETE para verificar se registro existe, caso não, retornar erro 404.
 
 ### Passos Iniciais
 

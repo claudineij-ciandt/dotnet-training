@@ -19,8 +19,8 @@ Nesse módulo do curso iremos abordar o básico do ASP.NET core focando apenas e
 
 ## Labs
 
-- [Hands-on Lab #1 - Criar uma API]("")
-- [Hands-on Lab #2 - Dependency Injection]("")
-- [Hands-on Lab #3 - Criar um Middleware]("")
-- [Hands-on Lab #4 - Criar configurações para Aplicação]("")
+- [Hands-on Lab #1 - Criar uma API]("https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab1-mvc/README.md")
+- [Hands-on Lab #2 - Dependency Injection]("https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab2-di/README.md")
+- [Hands-on Lab #3 - Criar um Middleware]("https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab3-middleware/README.md")
+- [Hands-on Lab #4 - Criar configurações para Aplicação]("https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab4-configuration/README.md")
 

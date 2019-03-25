@@ -55,4 +55,4 @@ context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
 await context.Response.WriteAsync("Oops! Ocorreu um erro.");
 ```
 
-5. Fazer requisição a API e validar se quando tem uma exception, retorna mensagem "Oops! Ocorreu um erro."
+5. Fazer requisição ao endpoint e validar se quando tem uma exception, retorna mensagem "Oops! Ocorreu um erro."
