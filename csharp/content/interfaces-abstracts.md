@@ -47,6 +47,8 @@ IProduct product1 = new Product();
 Existe um outro tipo de classe em C#, chamada classe abstrata, que é muito parecido com interface.
 A única diferença é que, em uma classe abstrata, é possível ter implementação nos membros definidos. Para maiores detalhes, veja as referências abaixo.
 
+Obs.: Não é possível criar instâncias de classes abstratas.
+
 **Referências:**
 * [C# Interfaces](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/interfaces/)
 * [Abstract and sealed classes](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members)
