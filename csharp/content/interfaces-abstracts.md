@@ -42,6 +42,8 @@ IProduct product1 = new Product();
 
 **Convenção de nome:** no C#, é recomendado que todo nome de interface comece com I maiúsculo. Exemplos: IProductService, ICustumerService.
 
+Obs.: Não é possível criar instâncias de interfaces.
+
 ## Clases abstratas
 
 Existe um outro tipo de classe em C#, chamada classe abstrata, que é muito parecido com interface.
