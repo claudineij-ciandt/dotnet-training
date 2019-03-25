@@ -16,6 +16,8 @@ Neste lab, vamos utilizar alguns dos principais comandos da CLI.
 
 ## 1. Explore a CLI
 
+Após instalada, a CLI pode ser utilizada por um interpretador de linha de comando (ex: CMD, bash) ou pelo terminal integrado do VS Code (VS Code > View > Terminal).
+
 Liste os comandos oferecidos pela CLI e observe o resultado:
 
 ```console

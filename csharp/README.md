@@ -1,5 +1,5 @@
 1. [Introdução](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/introduction.md)
-2. [Entendendo um programa em C](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/understading-a-program.md)
+2. [Entendendo programas e arquivos](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/understading-program-files.md)
 3. [Estrutura e gramática básica](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/basic-structure-and-grammar.md)
 4. [Palavras reservadas](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/reserved-keywords.md)
 5. [Noções sobre tipos de dados e variáveis](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/data-types-and-variables.md)

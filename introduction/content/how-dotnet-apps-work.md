@@ -12,4 +12,4 @@ O JIT é um componente do CLR (Common Language Runtime), o runtime do .NET. Alé
 * Alocação e gerenciamento de memória;
 * Garbage collection;
 * Interoperabilidade entre linguagens;
-* Segurança enforçada.
+* Segurança reforçada.
