@@ -8,7 +8,7 @@ Definindo classe genérica:
 ```csharp
 public class MinhaClasseGenerica<T>
 {
-  public T Field;
+    public T Field;
 }
 ```
 
@@ -68,7 +68,7 @@ Exemplo de classe com constraint:
 ```csharp
 public class MinhaClasseGenerica<T> where T : struct
 {
-  public T Field;
+    public T Field;
 }
 
 Utilizando a classe com constraint:

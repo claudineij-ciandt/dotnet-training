@@ -12,7 +12,7 @@
 
 * Uma string é **imutável**;
     ```csharp
-    var s1= "minusculo";
+    var s1 = "minusculo";
     s1.ToUpper();
     ```
 

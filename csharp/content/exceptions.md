@@ -5,7 +5,8 @@ O C# fornece suporte interno para tratamento de situações anormais, conhecidas
 Pode-se lançar exceções programaticamente utilizando a instrução throw. Toda exceção lançada por um throw deve derivar da classe base System.Exception:
 
 ```csharp
-if (index < 0 || index >= numbers.Length) {
+if (index < 0 || index >= numbers.Length)
+{
    throw new IndexOutOfRangeException();
 }
 ```
