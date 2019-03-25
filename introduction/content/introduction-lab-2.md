@@ -1,19 +1,14 @@
-# Lab: dotnet CLI
+# Lab 2: dotnet CLI
+
+_(Tempo estimado: 40 minutos)_
 
 O dotnet CLI é uma ferramenta para executar diversas operações úteis para o desenvolvimento de aplicações .NET Core. Embora muitas destas operações estejam disponibilizadas na interface gráfica de IDEs, a CLI é o método _out-of-the-box_ para realizá-las.
 
 Neste lab, vamos utilizar alguns dos principais comandos da CLI.
 
-1. [Explore a CLI](#1-explore-a-cli)
-2. [Crie uma solution](#2-crie-uma-solution)
-3. [Crie um projeto console](#3-crie-um-projeto-console)
-4. [Execute e teste a aplicação console](#4-execute-e-teste-a-aplicação-console)
-5. [Adicione uma dependência interna](#5-adicione-uma-dependência-interna)
-6. [Adicione uma dependência externa](#6-adicione-uma-dependência-externa)
+## Explore a CLI
 
-
-
-## 1. Explore a CLI
+Após instalada, a CLI pode ser utilizada por um interpretador de linha de comando (ex: CMD, bash) ou pelo terminal integrado do VS Code (VS Code > View > Terminal).
 
 Liste os comandos oferecidos pela CLI e observe o resultado:
 
@@ -39,7 +34,7 @@ Unit Test Project                                 mstest             [C#], F#, V
 (...)
 ```
 
-## 2. Crie uma solution
+## Crie uma solution
 
 O código-fonte e arquivos que compõem uma aplicação .NET são organizados em **projects** e **solutions**.
 
@@ -52,8 +47,6 @@ Crie um diretório para a solution:
 ```console
 user:~$ mkdir dotnet-training
 ```
-
-Abra o VS Code e carregue o diretório recém criado (VS Code > File > Open Folder > dotnet-training). Em seguida, exiba o terminal integrado do VS Code e utilize-o para executar os comandos seguintes (VS Code > View > Terminal).
 
 Crie uma solution chamada "Training":
 
@@ -71,7 +64,7 @@ Warning : Unable to find a project to restore!
 
 Recebemos um alerta dizendo que não foi encontrado nenhum projeto nesta solution. Este será o próximo passo.
 
-## 3. Crie um projeto console
+## Crie um projeto console
 
 Uma estrutura de diretórios bastante utilizada em aplicações .NET é a seguinte:
 
@@ -113,13 +106,16 @@ O projeto foi criado, porém ele não foi adicionado (associado) à solution. Ad
 user:~$ dotnet sln add src/Training.ConsoleApp/
 Project `src/Training.ConsoleApp/Training.ConsoleApp.csproj` added to the solution.
 
+user:~$ cd ..
 user:~$ dotnet build
 Build succeeded.
 ```
 
-## 4. Execute e teste a aplicação console
+## Execute e teste a aplicação console
 
-Neste momento, após adicionar o primeiro projeto à solution, o VS Code pode ter exibido uma pop-up com a mensagem **"Required assets to build and debug are missing from your project, add them?"**. Se sim, selecione **yes**: será criado um diretório **.vscode**, com 2 arquivos JSON, na raiz da solution. Este arquivos são criados pela extensão **C#** apenas uma vez, com o intuito de orientar o VS Code em ações de build e debug da solution.
+Abra o VS Code e carregue o diretório recém criado (VS Code > File > Open Folder > dotnet-training). Em seguida, exiba o terminal integrado do VS Code e utilize-o para executar os comandos seguintes (VS Code > View > Terminal).
+
+Neste momento, o VS Code pode ter exibido uma pop-up com a mensagem **"Required assets to build and debug are missing from your project, add them?"**. Se sim, selecione **yes**: será criado um diretório **.vscode**, com 2 arquivos JSON, na raiz da solution. Este arquivos são criados pela extensão **C#** apenas uma vez, com o intuito de orientar o VS Code em ações de build e debug da solution.
 
 Caso a mensagem não tenha aparecido:
 * Verifique se o diretório ".vscode" já existe. Se existir, pronto! Não é necessário executar os passos abaixo.
@@ -136,7 +132,7 @@ user:~$ dotnet run
 Hello World!
 ```
 
-## 5. Adicione uma dependência interna
+## Adicione uma dependência interna
 
 A classe **Program** exibe uma mensagem _hard-coded_ no próprio método. Em aplicações reais, os sistemas são geralmente organizados em camadas: a camada superior é um adapter para o meio externo (console, Internet, etc.), enquanto as camadas inferiores tratam regras de negócio e acessam mecanismos de armazenamento, por exemplo.
 
@@ -154,7 +150,7 @@ Project `src/Training.Business/Training.Business.csproj` added to the solution.
 
 Explore os arquivos gerados pelo template Class Library (VS Code > View > Explorer > dotnet-training > src > Training.Business). Observe a classe **Class1**, criada como exemplo.
 
-Na "Class1", adicione um método que retorna uma mensagem customizada. Em seguida, altere **Programa.Main** para invocar este método e retornar a nova mensagem.
+Na **Class1**, adicione um método que retorna uma mensagem customizada. Em seguida, altere **Programa.Main** para invocar este método e retornar a nova mensagem.
 
 
 Adcione o método abaixo na **Class1**:
@@ -186,7 +182,7 @@ Reference `..\Training.Business\Training.Business.csproj` added to the project.
 
 No entanto, o erro ainda permanece. Por quê?
 
-Agora resta apenas adicionar a diretiva de importação no arquivo. Clique no ícone de lâmpada à esquerda, na mesma linha do erro. Escolha a opção **using Training.Business**. Observe o bloco de **usings**, no início do arquivo. Dentre eles está a opção recém adicionada.
+Agora resta apenas adicionar a diretiva de importação no arquivo. Sobre a área marcada como erro, abra o QuickFix (Control + .). Escolha a opção **using Training.Business**. Observe o bloco de **usings**, no início do arquivo. Dentre eles está a opção recém adicionada.
 
 Execute e teste novamente a aplicação console:
 
@@ -196,7 +192,7 @@ user:~$ dotnet run
 A custom message generated by the business layer
 ```
 
-## 6. Adicione uma dependência externa
+## Adicione uma dependência externa
 
 O **NuGet** é o gerenciador de pacotes do .NET. Ele se utiliza do **NuGet Gallery**, o principal repositório público de pacotes .NET. Outros repositórios também podem ser utilizados, inclusive privados.
 
@@ -211,6 +207,7 @@ Clique na aba **.NET CLI** e copie o comando gerado.
 Adicione o pacote ao projeto **Training.Business**.
 
 ```console
+user:~$ cd src/Training.Business
 user:~$ dotnet add package Lorem.Universal.Net --version 2.1.55
 PackageReference for package 'Lorem.Universal.Net' version '2.1.55' added to file 'dotnet-training/src/Business/Business.csproj'.
 Restore completed for 'dotnet-training/src/Business/Business.csproj'.
@@ -220,11 +217,12 @@ Altere o método **Class1.GetMessage**:
 
 ```csharp
 public static string GetMessage() {
-    return Lorem.Words(5);
+    var message = Lorem.Words(5);
+    return message;
 }
 ```
 
-Adicione a diretiva de importação para a classe **Lorem** (ícone lâmpada > using LoremNET).
+Adicione a diretiva de importação para a classe **Lorem** (QuickFix > using LoremNET).
 
 Execute e teste novamente a aplicação console:
 
