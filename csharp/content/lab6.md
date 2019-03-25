@@ -1,5 +1,9 @@
 # (Hands-on) Lab 6: generics
 
+## Tempo
+
+20 minutos.
+
 ## Preparação
 
 1. Crie uma nova pasta:
