@@ -1,4 +1,4 @@
-## Entendendo programas e arquivos
+# Entendendo programas e arquivos
 
 ## Entendendo um programa em C#
 

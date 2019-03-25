@@ -56,8 +56,6 @@ Crie um diretório para a solution:
 user:~$ mkdir dotnet-training
 ```
 
-Abra o VS Code e carregue o diretório recém criado (VS Code > File > Open Folder > dotnet-training). Em seguida, exiba o terminal integrado do VS Code e utilize-o para executar os comandos seguintes (VS Code > View > Terminal).
-
 Crie uma solution chamada "Training":
 
 ```console
@@ -122,7 +120,9 @@ Build succeeded.
 
 ## 4. Execute e teste a aplicação console
 
-Neste momento, após adicionar o primeiro projeto à solution, o VS Code pode ter exibido uma pop-up com a mensagem **"Required assets to build and debug are missing from your project, add them?"**. Se sim, selecione **yes**: será criado um diretório **.vscode**, com 2 arquivos JSON, na raiz da solution. Este arquivos são criados pela extensão **C#** apenas uma vez, com o intuito de orientar o VS Code em ações de build e debug da solution.
+Abra o VS Code e carregue o diretório recém criado (VS Code > File > Open Folder > dotnet-training). Em seguida, exiba o terminal integrado do VS Code e utilize-o para executar os comandos seguintes (VS Code > View > Terminal).
+
+Neste momento, o VS Code pode ter exibido uma pop-up com a mensagem **"Required assets to build and debug are missing from your project, add them?"**. Se sim, selecione **yes**: será criado um diretório **.vscode**, com 2 arquivos JSON, na raiz da solution. Este arquivos são criados pela extensão **C#** apenas uma vez, com o intuito de orientar o VS Code em ações de build e debug da solution.
 
 Caso a mensagem não tenha aparecido:
 * Verifique se o diretório ".vscode" já existe. Se existir, pronto! Não é necessário executar os passos abaixo.
