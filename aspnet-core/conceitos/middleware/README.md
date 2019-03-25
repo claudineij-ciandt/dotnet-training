@@ -4,7 +4,7 @@
 
 Cada `middleware` tem a oportunidade de inspecionar, fazer algum trabalho e decidir se a requisição deve continuar no `pipeline` de execução.
 
-um `pipeline` de execução é uma sequencia de `middlewares` que são executados pela ordem em que os `middlewares` foram adicionados ao `pipeline`.
+um `pipeline` de execução é uma sequência de `middlewares` que são executados pela ordem em que os `middlewares` foram adicionados ao `pipeline`.
 
 
 ![ASP.NET Core Pipeline de Execução](pipeline.png)

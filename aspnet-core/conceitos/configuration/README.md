@@ -1,6 +1,5 @@
 # Configuração
-
-> O ASP.NET Core suporta vários métodos de configurações. As configurações são salvas em forma de chave/valor e podem ser lidas em tempo de execução. Também é permitida a configuração de mais de um provider.
+O ASP.NET Core suporta vários métodos de configurações. As configurações são salvas em forma de chave/valor e podem ser lidas em tempo de execução. Também é permitida a configuração de mais de um provider.
 
 #### Providers de configurações
 
@@ -10,8 +9,6 @@
 - Variáveis de ambiente
 - Objetos .NET In-memory
 - Arquivos de Configuração(JSON, XML)
-
-TODO: Exemplo com order
 
 ## Demo
 
@@ -52,7 +49,7 @@ public class ConfiguracaoController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<string> Get()
+    public ActionResult<string> DatabaseNameGet()
     {
         return configuration["ConfiguracaoDemo"];
     }
@@ -75,7 +72,7 @@ public class ConnectionString
 {
     public string DefaultConnection { get; set; }  
     public string DatabaseName { get; set; }  
-}  
+}
 ```
 
 8. Adicionar bind da configuração

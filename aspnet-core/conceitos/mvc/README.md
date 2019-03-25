@@ -1,15 +1,7 @@
-
-
-# ASP.NET Core MVC
-
-> ASP.NET Core MVC é um framework para construção de aplicações web e APIs usando o design pattners **Model-View-Controller**.
-
-O modelo arquitetural MVC propoem que a aplicação seja separada em três componentes: Models, Views e Controllers. Um dos principais benefícios desse padrão é o **separation of concerns**.
-
-### Criando uma API
+# ASP.NET Core APIs
+ASP.NET Core provê um framework que permite criação de APIs e Web Apps, esse framework é chamado MVC(*Model-View-Controller*).
 
 ![ASP.NET Core API](architecture.png)
-
 
 #### Controller
 
@@ -17,9 +9,9 @@ Os **controllers** são classes responsáveis por lidar com a interação e resp
 
 Por padrão, as classes **controllers** ficam dentro da pasta `Controller` na raiz do projeto web.
 
-Por convensão, as classes controllers devem ter no final de seu nome a anotação `Controller`. Por exemplo: `TesteController.cs`
+Por convenção, as classes controllers devem ter no final de seu nome a anotação `Controller`. Por exemplo: `TesteController.cs`
 
-Quando criado um controller para atender uma API, o **controller** deve conter a annotation `[ApiController]`. O MVC também provê a classe base `ControllerBase` com varias opções de métodos e propriedades que auxiliam no tratamento da request.
+Quando criado um controller para atender uma API, o **controller** deve conter a annotation `[ApiController]`. O MVC também provê a classe base `ControllerBase` com várias opções de métodos e propriedades que auxiliam no tratamento da request.
 
 ```
 [Route("api/[controller]")]
@@ -36,13 +28,15 @@ public class TesteController : ControllerBase
 
 #### Routing
 
-Roteamento no ASP.NET Core MVC é um mecanismo no qual mapea a requisição ao **controller** e a action method que atendem ela. Isso é feito pelo routing middleware.
+*Routing* no ASP.NET Core MVC é um mecanismo no qual mapea ao **controller** e a action method a requisição que eles atendem.
 
-Existem algumas formas de configurar os mapeamentos para as rotas, porém a mais comum é o **attribute routing**.Também podemos decorar as actions com annotations `[HttpGet]`, `[HttpPost]`, `[HttpPut]` e `[HttpDelete]` para sinalizar a qual operação REST ela responde.
+Existem algumas formas de configurar os mapeamentos para as rotas, porém a mais comum é o **attribute routing**.Também podemos decorar as actions com annotations `[HttpGet]`, `[HttpPost]`, `[HttpPut]` e `[HttpDelete]` para sinalizar qual operação REST ela responde.
 
 - Attribute routing controller
 
-    Nesse exemplo, temos apenas o mapeamento na classe controller. O middleware substitui o trecho `[controller]` pelo nome do controller. Sendo assim, o mapeamento abaixo atende a rota `/api/teste`. Também é possível expecificar um valor diferente do nome do controller.
+    Nesse exemplo, temos apenas o mapeamento na classe controller. O trecho `[controller]` será substituído pelo nome do controller. Também é possível expecificar um valor diferente do nome do controller.
+
+    O mapeamento abaixo atende a rota `/api/teste`.
     ```
     [Route("api/[controller]")]
     [ApiController]
@@ -56,9 +50,9 @@ Existem algumas formas de configurar os mapeamentos para as rotas, porém a mais
     }
     ```
 
-- Attribute routing action
+- Attribute routing na action
 
-    Adicionamos uma configuração para action. O exemplo abaixo a a action atende a rota `/api/teste/lista`. Note que parte da configuração é feita no controller e ela se extende a todas as actions dentro do controller.
+    Podemos adicionar na action, uma configuração via annotation. O exemplo abaixo, a action atende a rota `/api/teste/lista`. Note que parte da configuração é feita no controller e essa configuração se extende a todas as actions dentro do controller.
     ```
     [Route("api/[controller]")]
     [ApiController]
@@ -72,9 +66,9 @@ Existem algumas formas de configurar os mapeamentos para as rotas, porém a mais
     }
     ```
 
-- Attribute routing action com parametros na URL
+- Attribute routing action com parâmetros na URL
 
-    Neste exemplo, usamos o trecho `{id}` para sinalizar que um parametro será passado via URL e será populado a propriedade id.
+    Neste exemplo, usamos o trecho `{id}` para sinalizar que um parâmetro será passado via URL e será populado a propriedade id.
     ```
     [Route("api/[controller]")]
     [ApiController]
@@ -88,7 +82,7 @@ Existem algumas formas de configurar os mapeamentos para as rotas, porém a mais
     }
     ```
 #### Action
-Actions são métodos dentro dos controllers que executam o processamento da execução, ela pode tanto não retornar nenhum valor, quanto retornar um valor ou um status. Os exemlos abaixo mostram alguns tipos de retorno que uma action pode ter.
+Actions são métodos dentro dos controllers que executam o processamento da requisição, ela pode tanto não retornar nenhum valor, quanto retornar um valor ou um status. Os exemplos abaixo mostram alguns tipos de retorno que uma action pode ter.
 
 - Não retorna nenhum valor
     ```
