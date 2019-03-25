@@ -24,3 +24,10 @@
 24. [Namespaces, classes e modificadores de acesso](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/namespaces-classes-access-modifiers.md)
 25. [Interfaces e classes abstratas](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/interfaces-abstracts.md)
 26. [(HANDS-ON) Lab 5: classes and interfaces](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab5.md)
+27. [Generics](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/generics.md)
+28. (DEMO) Generics
+29. [(HANDS-ON) Lab 6: generics](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab6.md)
+30. [Métodos de extensão](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/extension-methods.md)
+31. [Herança](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/inheritance.md)
+32. [Exceções](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/exceptions.md)
+33. [Gerenciamento de memória](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/memory-management.md)
