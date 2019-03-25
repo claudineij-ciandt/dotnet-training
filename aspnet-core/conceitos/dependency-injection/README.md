@@ -34,7 +34,7 @@ O framework de DI provê a possibilidade de escolha de um lifetime apropriado pa
 
 - Transient
 
-    Uma nova instancia do serviço é criada para cada requisição ao DI. Funciona melhor para serviços leves e stateless.
+    Uma nova instância do serviço é criada para cada requisição ao DI. Funciona melhor para serviços leves e stateless.
 
     ```
     services.AddTransient<IServico, Servico>();
@@ -42,7 +42,7 @@ O framework de DI provê a possibilidade de escolha de um lifetime apropriado pa
 
 - Scoped
 
-    Uma nova instancia do serviço é criada para cada requisição a aplicação.
+    Uma nova instância do serviço é criada para cada requisição a aplicação.
 
     ```
     services.AddScoped<IServico, Servico>();

@@ -9,9 +9,9 @@ Os **controllers** são classes responsáveis por lidar com a interação e resp
 
 Por padrão, as classes **controllers** ficam dentro da pasta `Controller` na raiz do projeto web.
 
-Por convensão, as classes controllers devem ter no final de seu nome a anotação `Controller`. Por exemplo: `TesteController.cs`
+Por convenção, as classes controllers devem ter no final de seu nome a anotação `Controller`. Por exemplo: `TesteController.cs`
 
-Quando criado um controller para atender uma API, o **controller** deve conter a annotation `[ApiController]`. O MVC também provê a classe base `ControllerBase` com varias opções de métodos e propriedades que auxiliam no tratamento da request.
+Quando criado um controller para atender uma API, o **controller** deve conter a annotation `[ApiController]`. O MVC também provê a classe base `ControllerBase` com várias opções de métodos e propriedades que auxiliam no tratamento da request.
 
 ```
 [Route("api/[controller]")]
@@ -66,9 +66,9 @@ Existem algumas formas de configurar os mapeamentos para as rotas, porém a mais
     }
     ```
 
-- Attribute routing action com parametros na URL
+- Attribute routing action com parâmetros na URL
 
-    Neste exemplo, usamos o trecho `{id}` para sinalizar que um parametro será passado via URL e será populado a propriedade id.
+    Neste exemplo, usamos o trecho `{id}` para sinalizar que um parâmetro será passado via URL e será populado a propriedade id.
     ```
     [Route("api/[controller]")]
     [ApiController]
@@ -82,7 +82,7 @@ Existem algumas formas de configurar os mapeamentos para as rotas, porém a mais
     }
     ```
 #### Action
-Actions são métodos dentro dos controllers que executam o processamento da requisição, ela pode tanto não retornar nenhum valor, quanto retornar um valor ou um status. Os exemlos abaixo mostram alguns tipos de retorno que uma action pode ter.
+Actions são métodos dentro dos controllers que executam o processamento da requisição, ela pode tanto não retornar nenhum valor, quanto retornar um valor ou um status. Os exemplos abaixo mostram alguns tipos de retorno que uma action pode ter.
 
 - Não retorna nenhum valor
     ```
