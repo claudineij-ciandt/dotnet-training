@@ -1,5 +1,9 @@
 # (Hands-on) Lab 5: classes and interfaces
 
+## Tempo
+
+25 minutos.
+
 ## Preparação
 
 1. Crie uma nova pasta:
@@ -48,9 +52,9 @@
     Método:
     Save → parametro: Customer → tipo de retorno: void
     ```
-4. Crie uma classe chamada Customer.cs na pasta src/entities que implemente a interface ICustomer.cs.
+4. Crie uma classe chamada Customer.cs na pasta src/entities que implemente a interface ICustomer.cs. No método Save, imprima a mensagem "Customer saved!" (dica: use a classe Console).
 
-5. Na classe Program, dentro do método Main, defina uma variável do tipo da interface ICustomer.cs e inicialize esta variável com um objeto da classe Customer.cs.
+5. Na classe Program, dentro do método Main, defina uma variável do tipo da interface ICustomer.cs e inicialize esta variável com um objeto da classe Customer.cs. Por fim, chame o método Save desta classe.
 
 6. No terminal do VS Code, rode o comando abaixo na pasta do projeto:
     ```console

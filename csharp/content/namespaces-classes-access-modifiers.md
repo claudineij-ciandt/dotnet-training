@@ -154,8 +154,7 @@ Modificador | Descrição
 public | Visível de qualquer lugar. Essa é a visibilidade menos restritiva.
 protected | Visível somente pela própria classe ou por classes herdam da mesma.
 internal | Visível somente no escopo do projeto ou assembly.
-protected internal | Visível no escopo do projeto ou assembly.
-protected internal | Visível por classes que herdam da  mesma, dentro ou fora do escopo do projeto.
+protected internal | Visível no escopo do projeto ou assembly. Visível por classes que herdam da  mesma, dentro ou fora do escopo do projeto.
 private | Visível somente internamente. Esta é a visibilidade mais restritiva.
 private protected | Visível internamente e por classes que herdam da mesma.
 

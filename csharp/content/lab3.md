@@ -49,8 +49,8 @@
 **DADOS DE ENTRADA:** treinamento de dot net na cit
 
 **PROCESSAMENTO:**
-    * Formatar o texto de entrada letras maiusculas.
-    * Substituir a palavra [DOT NET] por [.NET]
+* Formatar o texto de entrada letras maiusculas.
+* Substituir a palavra [DOT NET] por [.NET]
 
 **MENSAGEM DE SAÍDA:** Texto formatado:
 **INFORMAÇÃO DE SAÍDA:** TREINAMENTO DE .NET NA CIT.
@@ -61,7 +61,7 @@
 **DADOS DE ENTRADA:** 1,
 
 **PROCESSAMENTO:**
-    * Adicione os próximos 9 números na string de entrada separando-os por vírgula.
+* Adicione os próximos 9 números na string de entrada separando-os por vírgula.
 
 **MENSAGEM DE SAÍDA:** Texto formatado:
 **INFORMAÇÃO DE SAÍDA:** 1,2,3,4,5,6,7,8,9,10
@@ -72,7 +72,7 @@
 **DADOS DE ENTRADA:** 22/03/2019 00:30:00
 
 **PROCESSAMENTO:**
-    * Aplicar a formatação esperada para a informação de saída.
+* Aplicar a formatação esperada para a informação de saída.
 
 **MENSAGEM DE SAÍDA:** Data formatada:
 **INFORMAÇÃO DE SAÍDA:**
@@ -88,7 +88,7 @@
 **DADOS DE ENTRADA:** 22/03/2019 00:00:00
 
 **PROCESSAMENTO:**
-    * Incremente 1 dia, 4 horas, e 30 minutos na data de entrada.
+* Incremente 1 dia, 4 horas, e 30 minutos na data de entrada.
 
 **MENSAGEM DE SAÍDA:** Data incrementada:
 **INFORMAÇÃO DE SAÍDA:** 23/03/2019 00:04:30

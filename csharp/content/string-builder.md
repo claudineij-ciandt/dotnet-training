@@ -19,7 +19,8 @@ StringBuilder.Replace | Substitui um caracter por outro dentro do stringbuilder.
 Exemplo:
 ```csharp
 StringBuilder sb = new StringBuilder("Hello ",50);
-sb.Append("World!!"); sb.AppendLine("Hello C#!");
+sb.Append("World!!");
+sb.AppendLine("Hello C#!");
 sb.AppendLine("This is new line.");
 Console.WriteLine(sb);
 ```
