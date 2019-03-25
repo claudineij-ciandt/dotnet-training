@@ -11,10 +11,16 @@ Nesse módulo do curso iremos abordar o básico do ASP.NET core focando apenas e
 
 ## Conceitos
 
-- [A classe Startup]("")
-- [MVC - Model View Controller]("")
-- [Injeção de Dependencia]("")
-- [Middleware]("")
-- [Configuração]("")
+- [A classe Startup]("https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/startup-class/README.md")
+- [MVC - Model View Controller]("https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/mvc/README.md")
+- [Injeção de Dependencia]("https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/dependency-injection/README.md")
+- [Middleware]("https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/middleware/README.md")
+- [Configuração]("https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/configuration/README.md")
 
 ## Labs
+
+- [Hands-on Lab #1 - Criar uma API]("")
+- [Hands-on Lab #2 - Dependency Injection]("")
+- [Hands-on Lab #3 - Criar um Middleware]("")
+- [Hands-on Lab #4 - Criar configurações para Aplicação]("")
+

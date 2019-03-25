@@ -1,6 +1,6 @@
 # Injeção de Dependência
 
->O ASP.NET Core tem uma estrutura de DI (injeção de dependência) interna que torna serviços configurados disponíveis para classes do aplicativo. Também é possível usar frameworks de terceiros que fazem a Injeção de Dependência.
+O ASP.NET Core tem uma estrutura de DI (injeção de dependência) interna que torna serviços configurados disponíveis para classes do aplicativo. Também é possível usar frameworks de terceiros que fazem a Injeção de Dependência.
 
 A maneira mais comum de obter uma instância configurada no DI é através do construtor.
 
@@ -9,10 +9,24 @@ public class TesteServico
 {
     public TesteServico(IRepositorio repositorio)
     {
-
+        ...
     }
 }
 ```
+
+Outra possibilidade seria recebendo a instância via parâmetro na action:
+
+```
+public class ValuesController : ControllerBase
+{  
+    [HttpGet]
+    public IActionResult Get([FromServices]IRepositorio repository)
+    {
+        ...
+    }
+}
+```
+
 
 ### Service Lifetime
 
@@ -55,14 +69,16 @@ O framework de DI provê a possibilidade de escolha de um lifetime apropriado pa
     ```
     public class TesteServico
     {
-        public TesteServico()
-        {
+        public int Count { get; set; }
 
+        public void Increase()
+        {
+            Count++;
         }
 
         public string Teste()
         {
-            return "Teste DI";
+            return Count.ToString();
         }
     }
     ```
@@ -96,3 +112,32 @@ O framework de DI provê a possibilidade de escolha de um lifetime apropriado pa
     ```
 
 5. Fazer requisição para API
+
+6. Alterar controller
+    ```
+    [Route("api/[controller]")]
+    [ApiController]
+    public class TesteController : ControllerBase
+    {
+        private readonly IServiceProvider provider;
+
+        public TesteController(IServiceProvider provider)
+        {
+            this.servico = servico;
+        }
+
+        [HttpGet]
+        public ActionResult<string> Get()
+        {
+            var intance1 = services.GetService<ServiceTeste>();
+            intance1.Increase();
+            var intance2 = services.GetService<ServiceTeste>();
+            intance2.Increase();
+
+
+            return servico.Teste();
+        }
+    }
+    ```
+
+7. Fazer teste mudando configuração de lifetime da classe service

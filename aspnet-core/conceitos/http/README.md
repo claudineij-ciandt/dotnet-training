@@ -1,1 +1,0 @@
-# Fazendo solicitações HTTP
