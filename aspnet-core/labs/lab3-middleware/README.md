@@ -22,7 +22,7 @@ Criar um middleware para capturar exceptions não tratadas pela aplicação e re
     ```
 
 2. Adicionar controller para simular de tempos em tempos uma Exception
-```
+```csharp
 [Route("api/[controller]")]
 [ApiController]
 public class TesteController : ControllerBase
@@ -49,10 +49,10 @@ public class TesteController : ControllerBase
 3. Criar um middleware que faça um `try/catch` do método `next();`
 
 4. No `catch`, usar o trecho de código abaixo para mudar o HTTP status code
-```
+```csharp
 context.Response.ContentType = "text/plain";
 context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
 await context.Response.WriteAsync("Oops! Ocorreu um erro.");
 ```
 
-5. Fazer requisição ao endpoint e validar se quando tem uma exception, retorna mensagem "Oops! Ocorreu um erro."
+5. Fazer requisição ao endpoint e validar se quando tem uma exception, retorna mensagem **"Oops! Ocorreu um erro."**

@@ -27,7 +27,7 @@ Criar uma API que suporte operações CRUD. As APIs devem usar o padrão REST.
     ```
 
 2. Adicionar classe Model a solution
-    ```
+    ```csharp
     public class Produto
     {
         public Produto()
@@ -42,7 +42,7 @@ Criar uma API que suporte operações CRUD. As APIs devem usar o padrão REST.
     ```
 
 3. Adicionar classe Repositorio a solution
-    ```
+    ```csharp
     public class ProdutoRepositorio
     {
         private static readonly List<Produto> produtos = new List<Produto>();

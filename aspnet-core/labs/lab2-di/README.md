@@ -21,10 +21,15 @@ Criar uma API que retorna os dados do repository
     dotnet new webapi -n lab2
     ```
 
-2. Adicionar uma Classe de Service
+2. Adicionar uma classe e uma interface de Service
 
-```
-public class TesteServico
+```csharp
+public interface ITesteServico
+{
+    string Teste();
+}
+
+public class TesteServico : ITesteServico
 {
     public string Teste()
     {

@@ -16,6 +16,7 @@ Nesse módulo do curso iremos abordar o básico do ASP.NET core focando apenas e
 - [Injeção de Dependencia](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/dependency-injection/README.md)
 - [Middleware](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/middleware/README.md)
 - [Configuração](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/configuration/README.md)
+- [Acesso a Banco de dados](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/entity-framework/README.md)
 
 ## Labs
 
@@ -23,3 +24,4 @@ Nesse módulo do curso iremos abordar o básico do ASP.NET core focando apenas e
 - [Hands-on Lab #2 - Dependency Injection](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab2-di/README.md)
 - [Hands-on Lab #3 - Criar um Middleware](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab3-middleware/README.md)
 - [Hands-on Lab #4 - Criar configurações para Aplicação](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab4-configuration/README.md)
+- [Hands-on Lab #5 - Entity Framework](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab5-efcore/README.md)
