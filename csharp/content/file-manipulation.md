@@ -62,9 +62,11 @@ Console.WriteLine($"File extension: {Path.GetExtension(path)}");
 Console.WriteLine($"File name sem extensão: {Path.GetFileName(path)}");
 
 Console.WriteLine($"Root path: {Path.GetPathRoot(path)}");
+```
 
 Como ler o conteúdo de arquivo:
 
+```csharp
 class ReadFromFile
 {
    static void Main()
