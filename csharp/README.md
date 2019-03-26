@@ -4,7 +4,7 @@
 4. [Palavras reservadas](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/reserved-keywords.md)
 5. [Noções sobre tipos de dados e variáveis](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/data-types-and-variables.md)
 6. [Declarando variáveis](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/declaring-variables.md)
-7. [Conversão de tipo e Cast]((https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/Type-convertion-and-cast.md))
+7. [Conversão de tipo e Cast](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/Type-convertion-and-cast.md)
 8. (DEMO) Declarando e atribuindo valor para variáveis
 9. [A instrução de decisão if](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/if.md)
 10. [(HANDS-ON) Lab 1: conditions](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/lab1.md)
