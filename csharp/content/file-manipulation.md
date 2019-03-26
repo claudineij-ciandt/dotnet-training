@@ -32,7 +32,7 @@ class Test
         {
             string s;
 
-		    // Lendo linha a linha do arquivo, até o seu final.
+            // Lendo linha a linha do arquivo, até o seu final.
             while ((s = sr.ReadLine()) != null)
             {
                 Console.WriteLine(s);
@@ -103,7 +103,7 @@ class WriteTextFile
         //Obs.: Com esse método não é necessário, fechar liberar ou fechar o arquivo criado.
         System.IO.File.WriteAllLines(@"C:\Users\Public\TestFolder\WriteLines.txt", lines);
 
-	    // ########################################################################
+        // ########################################################################
         // Example #2: Utilizando uma string para gerar o conteúdo de um arquivo
         // ########################################################################
         string text = "A class is the most powerful data type in C#. Like a structure, " +
@@ -131,7 +131,7 @@ class WriteTextFile
         // Example #4: Adicionando uma linha no final do arquivo.
         // ########################################################################
 
-	    // O último parâmetro do construtor da classe string arquivo, identifica que é uma operação de append content.
+        // O último parâmetro do construtor da classe string arquivo, identifica que é uma operação de append content.
         using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Users\Public\TestFolder\WriteLines2.txt", true))
         {
             file.WriteLine("Fourth line");
@@ -141,15 +141,15 @@ class WriteTextFile
 ```
 
 Possíveis exceções:
-    * System.ArgumentException
-    * System.ArgumentNullException
-    * System.IO.DirectoryNotFoundException
-    * System.IO.FileNotFoundException
-    * System.IO.IOException
-    * System.IO.PathTooLongException
-    * System.NotSupportedException
-    * System.Security.SecurityException
-    * System.UnauthorizedAccessException
+* System.ArgumentException
+* System.ArgumentNullException
+* System.IO.DirectoryNotFoundException
+* System.IO.FileNotFoundException
+* System.IO.IOException
+* System.IO.PathTooLongException
+* System.NotSupportedException
+* System.Security.SecurityException
+* System.UnauthorizedAccessException
 
 
 **Referências:**

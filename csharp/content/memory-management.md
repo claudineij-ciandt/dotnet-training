@@ -2,8 +2,6 @@ A linguagem C#, através do seu runtime (CLR) é responsável pelo gerenciamento
 
 Para a maioria dos objetos criados, o framework .NET cuida da gestão de memória. Porém, caso sejam criados objetos **não gerenciados**, tais como arquivos em memória, conexões com banco de dados, conexões de rede, etc., esses devem ser tratados manualmente para liberar memória.
 
-[25] Gerenciamento de memória
-
 A linguagem C# prove gerenciamento de memória automatizado, para alocação e liberação de memória. Para a maioria dos objetos criados, o framework .net cuida da gestão de memória.
 Mas, caso sejam criados objetos não gerenciados, tais como, (Arquivos em memória, conexões com banco de dados, conexões de rede, etc...), esses devem ser tratados manualmente para liberar memória.
 
@@ -28,7 +26,7 @@ class Test
                 sw.WriteLine("Welcome");
             }
         }
-   }
+    }
 }
 ```
 
