@@ -1,4 +1,6 @@
 # Configuração
+>An app’s config is everything that is likely to vary between deploys (staging, production, developer environments, etc)
+
 O ASP.NET Core suporta vários métodos de configurações. As configurações são salvas em forma de chave/valor e podem ser lidas em tempo de execução. Também é permitida a configuração de mais de um provider.
 
 #### Providers de configurações

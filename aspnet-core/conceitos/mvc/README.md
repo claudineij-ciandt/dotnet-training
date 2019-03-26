@@ -11,7 +11,7 @@ Por padrão, as classes **controllers** ficam dentro da pasta `Controller` na ra
 
 Por convenção, as classes controllers devem ter no final de seu nome a anotação `Controller`. Por exemplo: `TesteController.cs`
 
-Quando criado um controller para atender uma API, o **controller** deve conter a annotation `[ApiController]`. O MVC também provê a classe base `ControllerBase` com várias opções de métodos e propriedades que auxiliam no tratamento da request.
+Quando criado um controller para atender uma requisição, o **controller** deve conter a annotation `[ApiController]`. O MVC também provê a classe base `ControllerBase` com várias opções de métodos e propriedades que auxiliam no tratamento da request.
 
 ```
 [Route("api/[controller]")]
