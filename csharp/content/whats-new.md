@@ -1,6 +1,6 @@
 # What is new: Novidades do C#
 
-A cada versão que é lançada pela Microsoft, uma página como as listas a baixo é criada.
+A cada versão que é lançada pela Microsoft, uma página como as listadas a baixo é criada.
 Fique atento para novas features que sempre trazem novas facilidades e funcionalidades.
 
 [C# 8 preview](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8)
