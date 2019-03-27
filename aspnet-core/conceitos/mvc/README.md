@@ -5,11 +5,9 @@ ASP.NET Core provê um framework que permite a criação de APIs e Web Apps. Est
 
 #### Controller
 
-Os **controllers** são classes responsáveis por lidar com a interação e responder a requisições do usuário.
+Os **controllers** são classes responsáveis por lidar com a interação e responder a requisições dos usuários.
 
-Por padrão, as classes **controllers** ficam dentro da pasta `Controller`, na raiz do projeto web.
-
-Por convenção, as classes controllers devem ter no final de seu nome a anotação `Controller`. Por exemplo: `TesteController.cs`
+Por convenção, as classes **controllers** ficam dentro da pasta `Controller`, na raiz do projeto web e as classes controllers devem ter no final de seu nome a anotação `Controller`. Por exemplo: `TesteController.cs`
 
 Quando criado um controller para atender uma requisição, o **controller** deve conter a annotation `[ApiController]`. O MVC também provê a classe base `ControllerBase` com várias opções de métodos e propriedades que auxiliam no tratamento da request.
 
