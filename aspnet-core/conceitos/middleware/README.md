@@ -1,10 +1,10 @@
 # Middleware
 
->A arquitetura do ASP.NET Core é formada por `middlewares`, que são pedaços de código que processam as requisições. 
+>A arquitetura do ASP.NET Core é formada por `middlewares`, que são pedaços de código que processam as requisições.
 
 Cada `middleware` tem a oportunidade de inspecionar, fazer algum trabalho e decidir se a requisição deve continuar no `pipeline` de execução.
 
-um `pipeline` de execução é uma sequência de `middlewares` que são executados pela ordem em que os `middlewares` foram adicionados ao `pipeline`.
+Um `pipeline` de execução é uma sequência de `middlewares` que são executados pela ordem em que os `middlewares` foram adicionados ao `pipeline`.
 
 
 ![ASP.NET Core Pipeline de Execução](pipeline.png)
@@ -29,7 +29,7 @@ public void Configure(IApplicationBuilder app)
     dotnet new web -n demo-middleware
     ```
 
-2. Na classe `Startup.cs`, adicionar middleware a requisição
+2. Na classe `Startup.cs`, adicionar middleware à requisição
 
     ```
     // Middleware A
@@ -39,7 +39,7 @@ public void Configure(IApplicationBuilder app)
         await next();
         Console.WriteLine("A (after)");
     });
- 
+
     // Middleware B
     app.Use(async (context, next) =>
     {

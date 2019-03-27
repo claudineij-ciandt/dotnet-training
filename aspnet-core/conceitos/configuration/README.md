@@ -14,7 +14,7 @@ O ASP.NET Core suporta vários métodos de configurações. As configurações s
 
 ## Demo
 
-1. Criar uma aplicação Api
+1. Criar uma aplicação API
 ```
 dotnet new webapi -n demo-configuration
 ```
@@ -25,7 +25,7 @@ dotnet new webapi -n demo-configuration
 "ConfiguracaoDemo": "Configuracao Teste"
 ```
 
-3. Ler configuração na classe de inicialização(`Startup.cs`)
+3. Ler configuração na classe de inicializaçãov(`Startup.cs`)
 ```
 Console.WriteLine(Configuration["ConfiguracaoDemo"]);
 ```
@@ -70,10 +70,10 @@ public class ConfiguracaoController : ControllerBase
 
 7. Criar class model
 ```
-public class ConnectionString   
+public class ConnectionString
 {
-    public string DefaultConnection { get; set; }  
-    public string DatabaseName { get; set; }  
+    public string DefaultConnection { get; set; }
+    public string DatabaseName { get; set; }
 }
 ```
 
@@ -101,4 +101,4 @@ public class ConfiguracaoController : ControllerBase
         return Ok(connection);
     }
 }
-``` 
+```

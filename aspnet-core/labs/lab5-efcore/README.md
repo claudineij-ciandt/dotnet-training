@@ -3,9 +3,9 @@
 ## Visão Geral
 Criar uma API com acesso a dados em banco dados in memory usando o Entity Framework
 
-## Pré-Requisito
+## Pré-Requisitos
 - Visual Studio ou VS Code
-- .NET Framework instalado
+- .NET Core SDK instalado
 - Postman ou similar
 
 ### Passos
@@ -32,8 +32,8 @@ public class Produto
 public class Context : DbContext
 {
     public DbSet<Produto> Produtos { get; set; }
-    
-    public Context(DbContextOptions options) 
+
+    public Context(DbContextOptions options)
         : base(options)
     {
     }
@@ -47,6 +47,6 @@ services.AddDbContext<Contexto>(c => c.UseInMemoryDatabase(databaseName: "demo")
 
 4. Criar um controller com método `[HttpPost]` para criar registros
 
-5. Criar um controller com método `[HttpGet]` para retornar todos os registro
+5. Criar um controller com método `[HttpGet]` para retornar todos os registros
 
 6. Criar um controller com método `[HttpGet]` para retornar registro pelo id

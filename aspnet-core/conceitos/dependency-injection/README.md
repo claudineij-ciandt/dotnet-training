@@ -18,7 +18,7 @@ Outra possibilidade seria recebendo a instância via parâmetro na action:
 
 ```
 public class ValuesController : ControllerBase
-{  
+{
     [HttpGet]
     public IActionResult Get([FromServices]IRepositorio repository)
     {
@@ -30,7 +30,7 @@ public class ValuesController : ControllerBase
 
 ### Service Lifetime
 
-O framework de DI provê a possibilidade de escolha de um lifetime apropriado para cada serviço registrado. Os serviços do ASP.NET Core podem ser configurados com os seguintes lifetime:
+O framework de DI provê a possibilidade de escolha de um lifetime apropriado para cada serviço registrado. Os serviços do ASP.NET Core podem ser configurados com os seguintes lifetimes:
 
 - Transient
 

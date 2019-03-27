@@ -1,6 +1,6 @@
 # Módulo 3: ASP.NET Core
 
-1. [O que é o ASP.NET Core](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/definicao/README.m)
+1. [O que é o ASP.NET Core](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/definicao/README.md)
 2. [A classe Startup](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/startup-class/README.md)
 3. [MVC - Model View Controller](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/mvc/README.md)
 4. [(HANDS-ON) Lab 1: criar uma API](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab1-mvc/README.md)
