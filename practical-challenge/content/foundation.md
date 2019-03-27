@@ -65,4 +65,4 @@ Para criar solutions, projetos e adicionar dependências, refira-se ao [lab do d
 
 ## Entity Framework
 
-Para habilitar o Entity Framework, primeiro inclua a library **Microsoft.EntityFrameworkCore.InMemory (by: Microsoft EntityFramework aspnet)** no projeto Repository. Depois, faça o setup do DbContext. Se necessário, relembre-se destes passos [no lab do Entity Framework](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab5-efcore/README.md).
+Para habilitar o Entity Framework, primeiro inclua a library **Microsoft.EntityFrameworkCore.InMemory (by: Microsoft EntityFramework aspnet)** no projeto Repository. Depois, faça o setup do **DbContext**. Se necessário, relembre-se destes passos [no lab do Entity Framework](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab5-efcore/README.md).

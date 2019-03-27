@@ -17,7 +17,7 @@ Descrição | Texto | Sim |
 Preço unitário | Decimal | Não | Se informado, valor deve ser maior ou igual a zero
 Unidade de medida | Texto | Sim |
 
-O cadastro de produtos deve incluir as operações CRUD: criar, ler/listar, atualizar e excluir. Deverá existir 3 tipos de leitura:
+O cadastro de produtos deve incluir as operações CRUD: **criar, ler/listar, atualizar e excluir**. Deverá existir 3 tipos de leitura:
 * Ler/listar todas os produtos;
 * Ler/listar um produto específico (a partir do seu id);
 * Ler/listar produtos que atendam ao termo de busca (a partir da descrição).
