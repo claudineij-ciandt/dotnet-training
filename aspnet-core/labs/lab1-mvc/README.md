@@ -3,9 +3,9 @@
 ## Visão Geral
 Criar uma API que suporte operações CRUD. As APIs devem usar o padrão REST.
 
-## Pré-Requisito
+## Pré-Requisitos
 - Visual Studio ou VS Code
-- .NET Framework instalado
+- .NET Core SDK instalado
 - Postman ou similar
 
 ### Requisitos
@@ -17,7 +17,7 @@ Criar uma API que suporte operações CRUD. As APIs devem usar o padrão REST.
     - PUT /api/produtos/{id}
     - DELETE /api/produtos/{id}
 
-- Fazer validação dentro dos métodos GET, PUT e DELETE para verificar se registro existe, caso não, retornar erro 404.
+- Fazer validação dentro dos métodos GET, PUT e DELETE para verificar se o registro existe; caso não exista, retornar erro 404.
 
 ### Passos Iniciais
 
@@ -26,8 +26,8 @@ Criar uma API que suporte operações CRUD. As APIs devem usar o padrão REST.
     dotnet new webapi -n lab1
     ```
 
-2. Adicionar classe Model a solution
-    ```
+2. Adicionar classe Model à solution
+    ```csharp
     public class Produto
     {
         public Produto()
@@ -42,7 +42,7 @@ Criar uma API que suporte operações CRUD. As APIs devem usar o padrão REST.
     ```
 
 3. Adicionar classe Repositorio a solution
-    ```
+    ```csharp
     public class ProdutoRepositorio
     {
         private static readonly List<Produto> produtos = new List<Produto>();
@@ -73,7 +73,7 @@ Criar uma API que suporte operações CRUD. As APIs devem usar o padrão REST.
 
             produtos[index] = produto;
         }
-        
+
         public void Remove(Guid id)
         {
             var oldProduto = produtos.SingleOrDefault(c => c.Id == id);

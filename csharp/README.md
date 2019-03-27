@@ -1,3 +1,5 @@
+# Módulo 2: C#
+
 1. [Introdução](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/introduction.md)
 2. [Entendendo programas e arquivos](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/understading-program-files.md)
 3. [Estrutura e gramática básica](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/basic-structure-and-grammar.md)
@@ -32,3 +34,4 @@
 32. [Herança](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/inheritance.md)
 33. [Exceções](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/exceptions.md)
 34. [Gerenciamento de memória](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/memory-management.md)
+35. [Manipulação de arquivos](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/file-manipulation.md)

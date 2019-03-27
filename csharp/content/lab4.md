@@ -116,8 +116,8 @@ Você irá implementar uma query utilizando o LINQ e outra sem utilizá-lo. No f
 **DADOS DE ENTRADA:** Nenhum
 
 **PROCESSAMENTO:**
-    * O método ValorTotalAReceber utiliza LINQ. Comente o seu conteúdo e reescreva-o sem utilizar LINQ.
-    * Dica: utilize o foreach para iterar sobre a lista de compras.
+* O método ValorTotalAReceber utiliza LINQ. Comente o seu conteúdo e reescreva-o sem utilizar LINQ.
+* Dica: utilize o foreach para iterar sobre a lista de compras.
 
 **INFORMAÇÃO DE SAÍDA:**
     ```
@@ -130,8 +130,8 @@ Você irá implementar uma query utilizando o LINQ e outra sem utilizá-lo. No f
 **DADOS DE ENTRADA:** Nenhum
 
 **PROCESSAMENTO:**
-    * O método ClienteDevedores não utiliza LINQ. Comente o seu conteúdo e reescreva-o utilizando LINQ.
-    * Dica: utilize os método Where, Select e Distinct.
+* O método ClienteDevedores não utiliza LINQ. Comente o seu conteúdo e reescreva-o utilizando LINQ.
+* Dica: utilize os método Where, Select e Distinct.
 
 **INFORMAÇÃO DE SAÍDA:**
     ```

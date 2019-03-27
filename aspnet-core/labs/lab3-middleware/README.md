@@ -3,14 +3,14 @@
 ## Visão Geral
 Criar um middleware para capturar exceptions não tratadas pela aplicação e retornar uma mensagem e um HTTP status code padrão.
 
-## Pré-Requisito
+## Pré-Requisitos
 - Visual Studio ou VS Code
-- .NET Framework instalado
+- .NET Core SDK instalado
 - Postman ou similar
 
 ### Requisitos
 
-- Criar um controller fazendo throw de exception de tempos em tempos 
+- Criar um controller fazendo throw de exception de tempos em tempos
 - Capturar a exception dentro de um middleware
 - Retornar error 500
 
@@ -21,8 +21,8 @@ Criar um middleware para capturar exceptions não tratadas pela aplicação e re
     dotnet new webapi -n lab3
     ```
 
-2. Adicionar controller para simular de tempos em tempos uma Exception
-```
+2. Adicionar um controller para simular de tempos em tempos uma Exception
+```csharp
 [Route("api/[controller]")]
 [ApiController]
 public class TesteController : ControllerBase
@@ -38,7 +38,7 @@ public class TesteController : ControllerBase
         {
             return Ok();
         }
-        else 
+        else
         {
             throw new Exception();
         }
@@ -49,10 +49,10 @@ public class TesteController : ControllerBase
 3. Criar um middleware que faça um `try/catch` do método `next();`
 
 4. No `catch`, usar o trecho de código abaixo para mudar o HTTP status code
-```
+```csharp
 context.Response.ContentType = "text/plain";
 context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
 await context.Response.WriteAsync("Oops! Ocorreu um erro.");
 ```
 
-5. Fazer requisição ao endpoint e validar se quando tem uma exception, retorna mensagem "Oops! Ocorreu um erro."
+5. Fazer requisição ao endpoint e validar se, quando houver uma exception, é retornada a mensagem **"Oops! Ocorreu um erro."**

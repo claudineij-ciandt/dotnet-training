@@ -3,9 +3,9 @@
 ## Visão Geral
 Criar uma API que lê as configurações do sistema via `appsettings.json`.
 
-## Pré-Requisito
+## Pré-Requisitos
 - Visual Studio ou VS Code
-- .NET Framework instalado
+- .NET Core SDK instalado
 - Postman ou similar
 
 ### Requisitos
@@ -16,5 +16,5 @@ Criar uma API que lê as configurações do sistema via `appsettings.json`.
     - Key: DatabaseName / Value: lab3-configuration
 
 - Criar modelo que reflete as configurações
-- Criar controller que receba as configurações via construtor 
+- Criar controller que receba as configurações via construtor
 - Retornar configurações via action HTTP Get
