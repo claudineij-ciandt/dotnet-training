@@ -9,6 +9,6 @@
 7. [Middleware](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/middleware/README.md)
 8. [(HANDS-ON) Lab 3: criar um middleware](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab3-middleware/README.md)
 9. [Configuração](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/configuration/README.md)
-10. [Hands-on Lab 4: criar configurações para a aplicação](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab4-configuration/README.md)
+10. [(HANDS-ON) Lab 4: criar configurações para a aplicação](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab4-configuration/README.md)
 11. [Acesso à banco de dados com Entity Framework](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/conceitos/entity-framework/README.md)
 12. [(HANDS-ON) Lab 5: Entity Framework](https://github.com/claudineij-ciandt/dotnet-training/blob/master/aspnet-core/labs/lab5-efcore/README.md)
