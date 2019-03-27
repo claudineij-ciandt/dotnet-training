@@ -2,8 +2,8 @@
 
 ## Narrativa de negócio:
 
-**Como** gerente de uma linha de produtos
-**Desejo** cadastrar produtos
+**Como** gerente de uma linha de produtos<br/>
+**Desejo** cadastrar produtos<br/>
 **Para** consultar e obter informações do meu cátalogo de forma rápida
 
 ## Grooming de negócio

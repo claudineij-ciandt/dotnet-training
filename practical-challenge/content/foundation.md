@@ -30,7 +30,7 @@ Baixe o [repositório do treinamento](https://github.com/claudineij-ciandt/dotne
 
 O diretório da aplicação frontend estará em **dotnet-training/practical-challenge/frontend**. Você pode copiar esta pasta para outro local ou executar a aplicação a partir dela mesma.
 
-Restaure as dependências da aplicação:
+Restaure as dependências:
 ```console
 user:~$ cd frontend
 
@@ -45,7 +45,7 @@ App running at:
  - Local: http://localhost:8080/
 ```
 
-Pronto! Sua aplicação frontend está funcionando e pode ser acessada pela porta 8080. Quando sua aplicação backend estiver minimamente funcional, execute-a para estabelecer a troca de informações com o frontend.s
+Pronto! Sua aplicação frontend está funcionando e pode ser acessada pela porta 8080. Quando sua aplicação backend estiver minimamente funcional, execute-a para estabelecer a troca de informações com o frontend.
 
 ## Solution, projetos e dependências
 
