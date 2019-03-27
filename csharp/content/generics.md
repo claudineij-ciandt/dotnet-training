@@ -2,6 +2,8 @@
 
 ## Classes e métodos genéricos
 
+Os tipos genéricos maximizam a reutilização de código, o desempenho e a segurança de tipo.
+
 Veja exemplos de utilização de generics abaixo.
 
 Definindo classe genérica:
