@@ -22,18 +22,20 @@ O cadastro de produtos deve incluir as operações CRUD: **criar, ler/listar, at
 * Ler/listar um produto específico (a partir do seu id);
 * Ler/listar produtos que atendam ao termo de busca (a partir da descrição).
 
-Nesta estória, com a inclusão de produtos no sistema, deve-se incluir uma nova regra de negócio para categorias:
+Nesta estória, com a inclusão de produtos no sistema, deve-se **incluir uma nova regra de negócio para categorias**:
 * Não será possível excluir uma categoria que tenha produtos associados.
 
 ## Grooming técnico
 
 Criar uma controller **ProdutosController** com actions que atendam aos contratos abaixo:
 
+```
 GET http://<api_url>/api/produtos
 GET http://<api_url>/api/produtos/{id}
 GET http://<api_url>/api/produtos/search?descricao={search_text}
 POST http://<api_url>/api/produtos
 PUT http://<api_url>/api/produtos/{id}
 DELETE http://<api_url>/api/produtos/{id}
+```
 
 Assim como na estória anterior, deve-se seguir as mesmas práticas a respeito de exceções e responsabilidades das camadas.
