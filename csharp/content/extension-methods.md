@@ -2,6 +2,8 @@
 
 Em C# é possível adicionar comportamento em uma classe sem alterá-la. Isto é possível através dos métodos de extensão.
 
+Observação: Muito útil para adicionar comportamento em classes de bibliotecas externas, onde você não tenha posse do código.
+
 **Sintaxe:**
 ```csharp
 namespace ConsoleApp.src.Extensions
