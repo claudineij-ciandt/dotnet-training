@@ -35,3 +35,4 @@
 33. [Exceções](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/exceptions.md)
 34. [Gerenciamento de memória](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/memory-management.md)
 35. [Manipulação de arquivos](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/file-manipulation.md)
+36. [Whats is new: Novidades do C#](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/whats-new.md)
