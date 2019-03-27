@@ -15,7 +15,7 @@ Código | Texto | Sim | Deve conter exatamente 4 caracteres
 Descrição | Texto | Sim |
 Data de criação | Data/hora | Sim | Neste momento **não** é necessário alterar o formato de exibição
 
-O cadastro de categorias deve incluir as operações CRUD: criar, ler/listar, atualizar e excluir. Deverá ser criado 3 tipos de leitura:
+O cadastro de categorias deve incluir as operações CRUD: criar, ler/listar, atualizar e excluir. Deverá existir 3 tipos de leitura:
 * Ler/listar todas as categorias;
 * Ler/listar uma categoria específica (a partir do seu id);
 * Ler/listar categorias que atendam ao termo de busca (a partir da descrição).
