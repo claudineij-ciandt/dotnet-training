@@ -1,3 +1,5 @@
+# Módulo 2: C#
+
 1. [Introdução](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/introduction.md)
 2. [Entendendo programas e arquivos](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/understading-program-files.md)
 3. [Estrutura e gramática básica](https://github.com/claudineij-ciandt/dotnet-training/tree/master/csharp/content/basic-structure-and-grammar.md)

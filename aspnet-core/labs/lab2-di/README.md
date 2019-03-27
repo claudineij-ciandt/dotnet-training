@@ -3,14 +3,14 @@
 ## Visão Geral
 Criar uma API que retorna os dados do repository
 
-## Pré-Requisito
+## Pré-Requisitos
 - Visual Studio ou VS Code
-- .NET Framework instalado
+- .NET Core SDK instalado
 - Postman ou similar
 
 ### Requisitos
 
-- Criar um controller fazendo throw de exception de tempos em tempos 
+- Criar um controller fazendo throw de exception de tempos em tempos
 - Capturar a exception dentro de um middleware
 - Retornar error 500
 
@@ -38,6 +38,6 @@ public class TesteServico : ITesteServico
 }
 ```
 
-3. Criar um controller que para chamada do serviço via construtor
+3. Criar um controller para chamada do serviço via construtor
 
 4. Criar uma action para chamada do serviço via parâmetro do método

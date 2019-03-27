@@ -1,11 +1,11 @@
-# Acesso a Banco de dados
-No ASP.NET core, existe diversos frameworks para acesso a dados.
+# Acesso a Banco de dados com Entity Framework
+No ASP.NET core, existem diversos frameworks para acesso a dados.
 
-Existe uma técnica de mapeamento objeto relacional chamada ORM(Mapeamento objeto-relacional) que permite fazer uma relação dos objetos com os dados.
+Existe uma técnica de mapeamento objeto relacional chamada ORM (Mapeamento objeto-relacional) que permite fazer uma relação dos objetos com os dados.
 
-A Microsoft disponibiliza um framework chamado Entity Framework Core, que possibilita o desenvolvedor trabalhar com banco dados usando objetos .NET e eliminando a maior parte do trabalho em escrever código para acessar banco de dados. O EF Core pode se conectar a mais de um provider de banco de dados como (Sql Serve, In Memory, Sql Lite, MySql, etc)
+A Microsoft disponibiliza um framework, chamado Entity Framework Core, que possibilita o desenvolvedor trabalhar com banco dados usando objetos .NET e eliminando a maior parte do trabalho relacionado a escrever código para acessar o banco de dados. O EF Core pode se conectar a mais de um provider de banco de dados (ex: SQL Server, In Memory, SQL Lite, MySQL, etc..)
 
-O acesso a dados do EF Core é feito através do **Model**. Model representa um Entity Class e um **context** que representa a session com o banco de dados, assim permitindo query e save data.
+O acesso a dados do EF Core é feito através do **Model**, que representa um Entity Class, e um **context**, que representa a session com o banco de dados, assim permitindo query e save data.
 
 ```csharp
 public class BloggingContext : DbContext
