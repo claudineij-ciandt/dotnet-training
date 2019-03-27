@@ -10,6 +10,6 @@ Enquanto o frontend está pronto, o backend não foi nem iniciado. Recebemos a i
 
 E aí? Então você topou!? =D
 
-Eu já sabia! Já havia falado para todo mundo aqui que você não é do tipo foge dos desafios.
+Eu já sabia! Já havia falado para todo mundo aqui que você não é do tipo que foge dos desafios.
 
-Então vamos lá: o sistema em questão é um catálogo online de produtos. Nos tópicos seguintes você entenderá como nos ajudar neste desafio.
+**Então vamos lá:** o sistema em questão é um catálogo online de produtos. Nos tópicos seguintes você entenderá como nos ajudar neste desafio.
