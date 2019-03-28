@@ -41,13 +41,12 @@ O framework de DI provê a possibilidade de escolha de um lifetime apropriado pa
     ```
 
     ```csharp
-    var intance1 = services.GetService<ServiceTeste>();
-    intance1.Add();
-    Console.WriteLine($"[Instance 1] Count: {intance1.Count}");
-    var intance2 = services.GetService<ServiceTeste>();
-    intance2.Increase();
-    Console.WriteLine($"[Instance 2] Count: {intance1.Count}");
-
+    var instance1 = services.GetService<ServiceTeste>();
+    instance1.Add();
+    Console.WriteLine($"[Instance 1] Count: {instance1.Count}");
+    var instance2 = services.GetService<ServiceTeste>();
+    instance2.Increase();
+    Console.WriteLine($"[Instance 2] Count: {instance2.Count}");
 
     // Result
     // [Instance 1] Count: 1
@@ -63,13 +62,12 @@ O framework de DI provê a possibilidade de escolha de um lifetime apropriado pa
     ```
 
     ```csharp
-    var intance1 = services.GetService<ServiceTeste>();
-    intance1.Increase();
-    Console.WriteLine($"[Instance 1] Count: {intance1.Count}");
-    var intance2 = services.GetService<ServiceTeste>();
-    intance2.Increase();
-    Console.WriteLine($"[Instance 2] Count: {intance1.Count}");
-
+    var instance1 = services.GetService<ServiceTeste>();
+    instance1.Increase();
+    Console.WriteLine($"[Instance 1] Count: {instance1.Count}");
+    var instance2 = services.GetService<ServiceTeste>();
+    instance2.Increase();
+    Console.WriteLine($"[Instance 2] Count: {instance2.Count}");
 
     // Result
     // [Instance 1] Count: 1
