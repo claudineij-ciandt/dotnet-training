@@ -85,7 +85,7 @@ Actions são métodos dentro dos controllers que executam o processamento da req
 - Não retorna nenhum valor
     ```
     [HttpDelete("{id}")]
-    public void Get(int id)
+    public void Delete(int id)
     {
         DoWork(id);
     }
@@ -153,7 +153,7 @@ Actions são métodos dentro dos controllers que executam o processamento da req
 - Model binding no corpo da requisição
     ```
     [HttpPost]
-    public TesteModel Get([FromBody]int id, [FromBody]ProductModel model)
+    public TesteModel Post([FromBody]int id, [FromBody]ProductModel model)
     {
         return repository.Get(id);
     }
