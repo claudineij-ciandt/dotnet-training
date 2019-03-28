@@ -36,16 +36,44 @@ O framework de DI provê a possibilidade de escolha de um lifetime apropriado pa
 
     Uma nova instância do serviço é criada para cada requisição ao DI. Funciona melhor para serviços leves e stateless.
 
-    ```
+    ```csharp
     services.AddTransient<IServico, Servico>();
+    ```
+
+    ```csharp
+    var intance1 = services.GetService<ServiceTeste>();
+    intance1.Add();
+    Console.WriteLine($"[Instance 1] Count: {intance1.Count}");
+    var intance2 = services.GetService<ServiceTeste>();
+    intance2.Increase();
+    Console.WriteLine($"[Instance 2] Count: {intance1.Count}");
+
+
+    // Result
+    // [Instance 1] Count: 1
+    // [Instance 2] Count: 1
     ```
 
 - Scoped
 
     Uma nova instância do serviço é criada para cada requisição a aplicação.
 
-    ```
+    ```csharp
     services.AddScoped<IServico, Servico>();
+    ```
+
+    ```csharp
+    var intance1 = services.GetService<ServiceTeste>();
+    intance1.Increase();
+    Console.WriteLine($"[Instance 1] Count: {intance1.Count}");
+    var intance2 = services.GetService<ServiceTeste>();
+    intance2.Increase();
+    Console.WriteLine($"[Instance 2] Count: {intance1.Count}");
+
+
+    // Result
+    // [Instance 1] Count: 1
+    // [Instance 2] Count: 2
     ```
 
 - Singleton
