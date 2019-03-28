@@ -19,9 +19,9 @@ public IActionResult Get()
         service.GetResult();
         return Ok();
     }
-    catch(BusinessException)
+    catch(BusinessException ex)
     {
-        return BadRequest();
+        return BadRequest(ex.Message);
     }
 }
 ```

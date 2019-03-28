@@ -75,9 +75,15 @@ Request URL: DELETE http://<api_url>/api/categorias/{id}
 Response code: 200
 ```
 
-Criar uma classe **BusinessException**, que estende a classe **Exception**, no projeto **Business**. Ela deverá ter apenas um construtor que recebe um parâmetro **string errorMessage**, que será repassado à propriedade **Message** da classe base. Todas exceções de negócio devem ser lançadas por esta classe, porém com mensagens de erro diferentes para cada exceção de negócio.
-
 **Atenção às responsabilidades de cada camada:**
 * **Repository:** deve conter entidades e classes de repositório, que por sua vez utilizam expressões LINQ para acessar os dados do banco;
 * **Business:** deve realizar validações de negócio, invocar os métodos do repositório e, caso necessário, lançar exceções.
 * **API:** deve receber os parâmetros da requisição e invocar os métodos de business. Também será responsável por capturar possíveis exceções de negócio e retornar um **BadRequest** (ou **Ok**, se não houver erros).
+
+**Tratamento de exceções:**
+* Criar uma classe **BusinessException**, que estende a classe **Exception**, no projeto **Business**. Ela deverá ter um construtor que recebe um parâmetro **string errorMessage**, que será repassado à propriedade **Message** da classe base.
+* Todas exceções de negócio devem ser lançadas por esta classe, porém com mensagens de erro diferentes para cada tipo de exceção.
+* O frontend irá exibir a mensagem de erro retornada pelo backend. Para isso, passe a mensagem da exceção como argumento ao método BadRequest:
+    ```csharp
+    return BadRequest(ex.Message);
+    ```
