@@ -22,15 +22,57 @@ O cadastro de categorias deve incluir as operações CRUD: **criar, ler/listar, 
 
 ## Grooming técnico
 
-Criar uma controller **CategoriasController** com actions que atendam aos contratos abaixo:
+Criar uma controller **CategoriasController** com actions que atendam aos contratos abaixo.
 
+Categoria JSON (valores arbitrários):
+```json
+{
+    "Id": "be36c0ce-951f-4c1e-89b8-73d9ef3d3962",
+    "Codigo": "4urf",
+    "Descricao": "Cereais",
+    "CriadoEm": "2019-03-28T10:02:35"
+}
 ```
-GET http://<api_url>/api/categorias
-GET http://<api_url>/api/categorias/{id}
-GET http://<api_url>/api/categorias/search?descricao={search_text}
-POST http://<api_url>/api/categorias
-PUT http://<api_url>/api/categorias/{id}
-DELETE http://<api_url>/api/categorias/{id}
+
+Listar todas as categorias:
+```
+Request URL: GET http://<api_url>/api/categorias
+Response code: 200
+Response body: array de categorias
+```
+
+Listar uma categoria pelo seu ID:
+```
+Request URL: GET http://<api_url>/api/categorias/{id}
+Response code: 200
+Response body: categoria
+```
+
+Listar categoria pesquisando pela descrição (ou parte dela):
+```
+Request URL: GET http://<api_url>/api/categorias/search?descricao={search_text}
+Response code: 200
+Response body: array de categorias
+```
+
+Criar uma categoria:
+```
+Request URL: POST http://<api_url>/api/categorias
+Request body: categoria
+Response code: 200
+```
+
+Atualizar uma categoria:
+```
+Request URL: PUT http://<api_url>/api/categorias/{id}
+Request body: categoria
+Response code: 200
+```
+
+Excluir uma categoria:
+```
+Request URL: DELETE http://<api_url>/api/categorias/{id}
+Response code: 200
 ```
 
 Criar uma classe **BusinessException**, que estende a classe **Exception**, no projeto **Business**. Ela deverá ter apenas um construtor que recebe um parâmetro **string errorMessage**, que será repassado à propriedade **Message** da classe base. Todas exceções de negócio devem ser lançadas por esta classe, porém com mensagens de erro diferentes para cada exceção de negócio.
