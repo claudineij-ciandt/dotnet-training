@@ -102,3 +102,9 @@ public class ConfiguracaoController : ControllerBase
     }
 }
 ```
+
+10. Ler configuração via `IConfiguration`
+```
+var database = configuration.GetSection("ConnectionString")["Database"];
+var database = configuration["ConnectionString:Database"];
+```
