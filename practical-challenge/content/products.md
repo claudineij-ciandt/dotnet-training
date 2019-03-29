@@ -29,13 +29,57 @@ Nesta estória, com a inclusão de produtos no sistema, deve-se **incluir uma no
 
 Criar uma controller **ProdutosController** com actions que atendam aos contratos abaixo:
 
+Produto JSON (valores arbitrários):
+```json
+{
+    "Id": "cfb5c11e-affb-4ac0-a0a0-d098351dba87",
+    "Codigo": "gh82",
+    "Descricao": "Arroz",
+    "Categoria": "",
+    "Preco": 10.99,
+    "UnidadeMedida": "kg"
+}
 ```
-GET http://<api_url>/api/produtos
-GET http://<api_url>/api/produtos/{id}
-GET http://<api_url>/api/produtos/search?descricao={search_text}
-POST http://<api_url>/api/produtos
-PUT http://<api_url>/api/produtos/{id}
-DELETE http://<api_url>/api/produtos/{id}
+
+Listar todas os produtos:
+```
+Request URL: GET http://<api_url>/api/produtos
+Response code: 200
+Response body: array de produtos
+```
+
+Listar um produtop pelo seu ID:
+```
+Request URL: GET http://<api_url>/api/produtos/{id}
+Response code: 200
+Response body: produto
+```
+
+Listar produto pesquisando pela descrição (ou parte dela):
+```
+Request URL: GET http://<api_url>/api/produtos/search?descricao={search_text}
+Response code: 200
+Response body: array de produtos
+```
+
+Criar um produto:
+```
+Request URL: POST http://<api_url>/api/produtos
+Request body: produto
+Response code: 200
+```
+
+Atualizar um produto:
+```
+Request URL: PUT http://<api_url>/api/produtos/{id}
+Request body: produto
+Response code: 200
+```
+
+Excluir um produto:
+```
+Request URL: DELETE http://<api_url>/api/produtos/{id}
+Response code: 200
 ```
 
 Assim como na estória anterior, deve-se seguir as mesmas práticas a respeito de exceções e responsabilidades das camadas.
