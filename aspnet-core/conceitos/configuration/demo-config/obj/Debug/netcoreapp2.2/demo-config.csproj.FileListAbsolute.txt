@@ -1,0 +1,14 @@
+/home/fsalvador/project/capacitacao-net/demo/demo-config/bin/Debug/netcoreapp2.2/demo-config.deps.json
+/home/fsalvador/project/capacitacao-net/demo/demo-config/bin/Debug/netcoreapp2.2/demo-config.runtimeconfig.json
+/home/fsalvador/project/capacitacao-net/demo/demo-config/bin/Debug/netcoreapp2.2/demo-config.runtimeconfig.dev.json
+/home/fsalvador/project/capacitacao-net/demo/demo-config/bin/Debug/netcoreapp2.2/demo-config.dll
+/home/fsalvador/project/capacitacao-net/demo/demo-config/bin/Debug/netcoreapp2.2/demo-config.pdb
+/home/fsalvador/project/capacitacao-net/demo/demo-config/obj/Debug/netcoreapp2.2/demo-config.csprojAssemblyReference.cache
+/home/fsalvador/project/capacitacao-net/demo/demo-config/obj/Debug/netcoreapp2.2/demo-config.csproj.CoreCompileInputs.cache
+/home/fsalvador/project/capacitacao-net/demo/demo-config/obj/Debug/netcoreapp2.2/demo-config.RazorAssemblyInfo.cache
+/home/fsalvador/project/capacitacao-net/demo/demo-config/obj/Debug/netcoreapp2.2/demo-config.RazorAssemblyInfo.cs
+/home/fsalvador/project/capacitacao-net/demo/demo-config/obj/Debug/netcoreapp2.2/demo-config.AssemblyInfoInputs.cache
+/home/fsalvador/project/capacitacao-net/demo/demo-config/obj/Debug/netcoreapp2.2/demo-config.AssemblyInfo.cs
+/home/fsalvador/project/capacitacao-net/demo/demo-config/obj/Debug/netcoreapp2.2/demo-config.RazorTargetAssemblyInfo.cache
+/home/fsalvador/project/capacitacao-net/demo/demo-config/obj/Debug/netcoreapp2.2/demo-config.dll
+/home/fsalvador/project/capacitacao-net/demo/demo-config/obj/Debug/netcoreapp2.2/demo-config.pdb
