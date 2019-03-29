@@ -14,8 +14,14 @@ Criar uma API com acesso a dados em banco dados in memory usando o Entity Framew
     ```
     dotnet new webapi -n lab5
     ```
+    
+2. Adicionar pacote entity framework
+```
+cd lab5
+dotnet add new package Microsoft.EntityFrameworkCore.SqlServer
+```
 
-2. Adicionar a seguinte classe que representa uma entidade
+3. Adicionar a seguinte classe que representa uma entidade
 
 ```csharp
 public class Produto
@@ -26,7 +32,7 @@ public class Produto
 }
 ```
 
-3. Adicionar a seguinte classe que representa o Contexto
+4. Adicionar a seguinte classe que representa o Contexto
 
 ```csharp
 public class Context : DbContext
@@ -40,13 +46,13 @@ public class Context : DbContext
 }
 ```
 
-3. Registrar o contexto no DI
+5. Registrar o contexto no DI
 ```csharp
 services.AddDbContext<Contexto>(c => c.UseInMemoryDatabase(databaseName: "demo"));
 ```
 
-4. Criar um controller com método `[HttpPost]` para criar registros
+6. Criar um controller com método `[HttpPost]` para criar registros
 
-5. Criar um controller com método `[HttpGet]` para retornar todos os registros
+7. Criar um controller com método `[HttpGet]` para retornar todos os registros
 
-6. Criar um controller com método `[HttpGet]` para retornar registro pelo id
+8. Criar um controller com método `[HttpGet]` para retornar registro pelo id
