@@ -18,7 +18,7 @@ Criar uma API com acesso a dados em banco dados in memory usando o Entity Framew
 2. Adicionar pacote entity framework
 ```
 cd lab5
-dotnet add new package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add new package Microsoft.EntityFrameworkCore.InMemory
 ```
 
 3. Adicionar a seguinte classe que representa uma entidade
